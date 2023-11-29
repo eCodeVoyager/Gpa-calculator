@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Cambay&family=Montserrat:wght@500;700&family=Poppins:wght@400;600&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: #002339;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #019f55;
+  margin-top: -20px;
+}
+
+h3 {
+  font-family: "poppins", sans-serif;
+  font-size: 15px;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+}
+
+.div button {
+  font-family: "poppins", sans-serif;
+  font-size: 15px;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  text-align: center;
+  background: #019f55;
+  color: white;
+  border: none;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: -155px;
+  margin-top: 5px;
+}
+input {
+  font-family: "poppins", sans-serif;
+  font-size: 15px;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  font-weight: 400;
+  text-align: center;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 0.8rem 4rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: #019f55;
+}
+i {
+  color: red;
+}
+
+p {
+  font-family: "poppins", sans-serif;
+  font-size: 14px;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 2.5rem;
+  background-color: #002339;
+  color: #ffffff;
+  text-align: center;
+  font-size: 0.8rem;
+  font-family: "Cambay", sans-serif;
+  word-spacing: normal;
+}
+
+.div i {
+  color: white;
+  font-size: 22px;
+  margin-right: 4px;
+}
+.div {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-direction: row;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  align-content: space-between;
+  width: 100px;
+  height: 70px;
+  margin-left: 100px;
+  margin-top: 0px;
+}
+
+.div p {
+  margin-left: 50px;
+}
+#error {
+  margin: 0;
+  padding: 10px;
+  margin-bottom: -15px;
+  font-weight: bold;
+  font-size: 20px;
+  align-items: center;
+}
+
+#error i {
+  font-size: 25px;
+}
+img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
